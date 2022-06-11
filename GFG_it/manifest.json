@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name":"GFG_it",
+    "version":"1.0",
+    "description":"searches the selected word on gfg in one go",
+    "icons":{
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+
+    },
+    "background":{
+        "scripts":["eventPage.js"]
+    
+    },
+    "permissions":[
+        "tabs",
+        "contextMenus"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name":"fontstyle change",
+    "version":"1.0",
+    "description":"changes fontstyle on specific objects",
+    "icons":{
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+
+    "page_action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html",
+        "default_title":"fontstyle_changer"
+    },
+    "background":{
+        "scripts":["eventPage.js"],
+        "persistent":false
+    },
+    "content_scripts":[
+        {
+            "matches":["https://developer.chrome.com/*"],
+            "js":["content.js","jquery-3.6.0.min.js"],
+            "css":["content.css"]
+        }
+    ],
+    "permissions":[
+        "tabs",
+        "https://developer.chrome.com/*"
+    ]
+
+    }
+
+    

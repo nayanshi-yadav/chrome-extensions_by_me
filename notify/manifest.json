@@ -1,0 +1,21 @@
+{
+    "manifest_version":2,
+    "name":"notify",
+    "version":"1.0",
+    "description":"it is used for notififcation",
+    "icons":{
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+    "permissions":
+    
+    ["notifications"],
+
+    "browser_action":{
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"  
+    }
+   
+    
+}

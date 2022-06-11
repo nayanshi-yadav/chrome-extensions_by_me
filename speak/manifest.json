@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "name":"speak",
+    "version":"1.0",
+    "description":"it speaks your text",
+    "icons":{
+
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+    
+    "background":{
+        "scripts":["eventPage.js"],
+        
+    "options_page":"options.html"
+    },
+    "permissions":[
+        "tts",
+        "contextMenus",
+        "storage"
+    ]
+}
